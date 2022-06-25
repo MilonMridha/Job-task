@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import love from '../img/images (1).png'
 import greater from '../img/white greater (1).png'
 import share from '../img/share_PNG25 (1).png'
+import what from '../img/what.jpg'
 import ReviewCart from './ReviewCart';
 
 const Home = () => {
@@ -15,7 +16,15 @@ const Home = () => {
     return (
         <div>
             <h1 className='text-4xl font-bold mt-5 text-left px-5 '>Summer Art Camp! 5 Days of Artists and Painting Monet, Van Gogh, Matisse, & More</h1>
-            <span className='text-gray-500 text-xl text-left px-5 font-bold'>Multi-day course</span>
+            <div className='flex items-center'>
+                <p className='text-gray-500 text-xl text-left px-5 font-bold'>Multi-day course </p>
+                <div>
+                    <span>
+                        <img style={{ width: '20px' }} src={what} alt="" />
+                    </span>
+                </div>
+            </div>
+
 
             <div>
                 <div class="hero min-h-screen">
@@ -25,7 +34,7 @@ const Home = () => {
                         <div>
 
 
-                            <p class="py-6 text-left">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <p class="py-6 text-left font-bold">In this 5 day class we will explore artists Monet, Matisse, Van Gogh, among others and then recreate painting using crayon and watercolor. Students will have fun learning about the artists & creating their own art inspired by their work. </p>
                             {
                                 reviews.map(review => <ReviewCart
                                     key={review.id}
