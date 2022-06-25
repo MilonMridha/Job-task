@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import love from '../img/images (1).png'
+import love from '../img/love2 (1).png'
 import greater from '../img/white greater (1).png'
 import share from '../img/share_PNG25 (1).png'
 import what from '../img/what.jpg'
@@ -49,7 +49,7 @@ const Home = () => {
                                 </div>
 
                                 <div className='flex items-center'>
-                                    <span className='ml-5'><img src={love} alt="" /></span>
+                                    <span className='ml-10'><img src={love} alt="" /></span>
                                     <div>
                                         <h2 className=' font-bold  text-purple-800'>Save</h2>
                                     </div>
