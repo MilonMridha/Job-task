@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import love from '../img/images (1).png'
 import greater from '../img/white greater (1).png'
+import share from '../img/share_PNG25 (1).png'
 import ReviewCart from './ReviewCart';
 
 const Home = () => {
@@ -34,18 +35,21 @@ const Home = () => {
 
                             <div className='grid md:grid-cols-3 gap-3 items-center'>
                                 <div>
-                                    <button class="btn bg-purple-800 flex lowercase rounded-full px-20 w-full text-white text-start">See Class Schedule <span><img src={greater} alt="" /></span></button>
+                                    <button class="btn bg-purple-800 flex lowercase rounded-full w-full text-white text-start">See Class Schedule <span><img style={{ width: '20px' }} src={greater} alt="" /></span></button>
 
                                 </div>
 
                                 <div className='flex items-center'>
-                                    <span><img src={love} alt="" /></span>
+                                    <span className='ml-5'><img src={love} alt="" /></span>
                                     <div>
                                         <h2 className=' font-bold  text-purple-800'>Save</h2>
                                     </div>
                                 </div>
-                                <div>
-                                    <h2 className='font-bold text-purple-800'>Share</h2>
+                                <div className='flex'>
+                                    <span><img src={share} alt="" /></span>
+                                    <div>
+                                        <h2 className='font-bold text-purple-800'>Share</h2>
+                                    </div>
                                 </div>
                             </div>
 
