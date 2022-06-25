@@ -29,8 +29,8 @@ const Home = () => {
             <div>
                 <div class="hero min-h-screen">
                     <div class="hero-content flex-col lg:flex-row-reverse">
-                        <img style={{ width: "200px" }} src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
-                        <img style={{ width: "200px" }} src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
+                        <img  src="https://i.ibb.co/MfPPyxB/monet-2.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+                        <img src="https://i.ibb.co/jvDhQcy/images.jpg" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
 
 
@@ -44,7 +44,7 @@ const Home = () => {
 
                             <div className='grid md:grid-cols-3 gap-3 items-center'>
                                 <div>
-                                    <button class="btn bg-purple-800 flex lowercase rounded-full w-full text-white text-start">See Class Schedule <span><img style={{ width: '20px' }} src={greater} alt="" /></span></button>
+                                    <button class="btn bg-purple-800 lowercase  rounded-full w-full text-white text-start">See Class Schedule <span><img style={{ width: '20px' }} src={greater} alt="" /></span></button>
 
                                 </div>
 

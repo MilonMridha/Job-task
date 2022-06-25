@@ -9,7 +9,7 @@ const ReviewCart = ({ review }) => {
         <div>
             <div className='flex items-center gap-3'>
                 <div>
-                    <img className='rounded-full' style={{ width: '50px' }} src={img} alt="" />
+                    <img className='rounded-full' style={{ width: '30px' }} src={img} alt="" />
                 </div>
                 <div>
                     <h1 className='text-purple-500 font-bold'>{name}</h1>
